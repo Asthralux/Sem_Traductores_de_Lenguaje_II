@@ -1,0 +1,37 @@
+Pila                                                                                                Entrada                                 Salida
+0                                                                                                   tipo identificador ( ) { tipo identificador ; identificador = identificador opSuma identificador ; } $d5
+0 tipo 5                                                                                            identificador ( ) { tipo identificador ; identificador = identificador opSuma identificador ; } $d8
+0 tipo 5 identificador 8                                                                            ( ) { tipo identificador ; identificador = identificador opSuma identificador ; } $d11
+0 tipo 5 identificador 8 ( 11                                                                       ) { tipo identificador ; identificador = identificador opSuma identificador ; } $r10
+0 tipo 5 identificador 8 ( 11 <Parametros> 14                                                       ) { tipo identificador ; identificador = identificador opSuma identificador ; } $d17
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17                                                  { tipo identificador ; identificador = identificador opSuma identificador ; } $d20
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20                                             tipo identificador ; identificador = identificador opSuma identificador ; } $d5
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 tipo 5                                      identificador ; identificador = identificador opSuma identificador ; } $d8
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 tipo 5 identificador 8                      ; identificador = identificador opSuma identificador ; } $r7
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 tipo 5 identificador 8 <ListaVar> 9         ; identificador = identificador opSuma identificador ; } $d12
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 tipo 5 identificador 8 <ListaVar> 9 ; 12    identificador = identificador opSuma identificador ; } $r6
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefVar> 25                                 identificador = identificador opSuma identificador ; } $r17
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefLocal> 24                               identificador = identificador opSuma identificador ; } $d27
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefLocal> 24 identificador 27              = identificador opSuma identificador ; } $d35
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefLocal> 24 identificador 27 = 35         identificador opSuma identificador ; } $d46
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefLocal> 24 identificador 27 = 35 identificador 46opSuma identificador ; } $              r36
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefLocal> 24 identificador 27 = 35 <Termino> 44opSuma identificador ; } $              r52
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefLocal> 24 identificador 27 = 35 <Expresion> 52opSuma identificador ; } $              d59
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefLocal> 24 identificador 27 = 35 <Expresion> 52 opSuma 59identificador ; } $                     d46
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefLocal> 24 identificador 27 = 35 <Expresion> 52 opSuma 59 identificador 46; } $                                   r36
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefLocal> 24 identificador 27 = 35 <Expresion> 52 opSuma 59 <Termino> 44; } $                                   r52
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefLocal> 24 identificador 27 = 35 <Expresion> 52 opSuma 59 <Expresion> 75; } $                                   r47
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefLocal> 24 identificador 27 = 35 <Expresion> 52; } $                                   d68
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefLocal> 24 identificador 27 = 35 <Expresion> 52 ; 68} $                                     r21
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefLocal> 24 <Sentencia> 26                } $                                     r18
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefLocal> 24 <DefLocal> 24                 } $                                     r15
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefLocal> 24 <DefLocal> 24 <DefLocales> 34 } $                                     r16
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefLocal> 24 <DefLocales> 34               } $                                     r16
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefLocales> 23                             } $                                     d33
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 { 20 <DefLocales> 23 } 33                        $                                       r14
+0 tipo 5 identificador 8 ( 11 <Parametros> 14 ) 17 <BloqFunc> 19                                    $                                       r9
+0 <DefFunc> 6                                                                                       $                                       r5
+0 <Definicion> 3                                                                                    $                                       r2
+0 <Definicion> 3 <Definiciones> 7                                                                   $                                       r3
+0 <Definiciones> 2                                                                                  $                                       r1
+0 <programa> 1                                                                                      $                                       r0
